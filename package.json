@@ -1,5 +1,5 @@
 {
-  "name": "comp229-f2020-midterm",
+  "name": "COMP229-W2022-MidTerm-301218602",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -52,7 +52,7 @@
     "ExpressJS",
     "EJS"
   ],
-  "author": "Your Name Goes Here",
+  "author": "Ronald Saenz Huerta",
   "license": "ISC",
   "bugs": {
     "url": ""

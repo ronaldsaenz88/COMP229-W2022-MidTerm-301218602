@@ -1,9 +1,27 @@
+/**
+ * app.js
+ *
+ * Wepp App Name: Mid-Term Test - Favourite Book List App
+ * Student Name: Ronald Saenz
+ * Student Id: 301218602
+ * Date: March 05, 2022
+ *
+ * @link   config/app.js
+ * @file   This file defines the deployment of the project.
+ * @author Ronald Saenz <rsaenzh@my.centennialcollege.ca>
+ * @since  1.0.0
+ */
+
 // moddules for node and express
 let createError = require('http-errors');
 let express = require('express');
 let path = require('path');
 let cookieParser = require('cookie-parser');
 let logger = require('morgan');
+
+// environment
+const dotenv = require("dotenv")
+dotenv.config()
 
 // import "mongoose" - required for DB Access
 let mongoose = require('mongoose');
