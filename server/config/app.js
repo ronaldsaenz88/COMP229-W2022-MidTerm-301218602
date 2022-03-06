@@ -34,6 +34,10 @@ let mongoDB = mongoose.connection;
 mongoDB.on('error', console.error.bind(console, 'Connection Error:'));
 mongoDB.once('open', ()=> {
   console.log("Connected to MongoDB...");
+  
+  // Populate Database
+  console.log("Start the populating task...");
+  require("../../populate_db/populate_book");
 });
 
 
@@ -54,11 +58,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, '../../client')));
 
-
 // route redirects
 app.use('/', index);
 app.use('/books', books);
-
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
