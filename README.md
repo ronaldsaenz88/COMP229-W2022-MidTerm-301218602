@@ -22,11 +22,9 @@ Due: Week 4
 
 Project Setup:
 
-• Rename the Web App Template provided to COMP229-W2022-MidTerm-[YourStudentID]. (e.g.
-COMP229-W2022-MidTerm-300929668).
-• You will need to create a new Mongo Database on MongoDB Atlas. You will need to change the
-URI variable in the db config file (config/db.js) to point MongoDB Atlas.
-• You will need to add some example Book data in the database. 
+- Rename the Web App Template provided to COMP229-W2022-MidTerm-[YourStudentID]. (e.g. COMP229-W2022-MidTerm-300929668).
+- You will need to create a new Mongo Database on MongoDB Atlas. You will need to change the URI variable in the db config file (config/db.js) to point MongoDB Atlas.
+- You will need to add some example Book data in the database. 
 
 Overview: Using your knowledge of NodeJS and ExpressJS and the Web App Template provided,
 complete the Favourite Book List web app that you will share on GitHub and deploy to Heroku (or
