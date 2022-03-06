@@ -18,7 +18,7 @@ Relevant Information:
 
 MidTerm Project - the Favourite Book List App
 
-Due: Week 4
+Due: March 7, 2022
 
 Project Setup:
 
